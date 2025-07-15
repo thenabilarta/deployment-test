@@ -1,0 +1,16 @@
+{
+  "name": "simple-express-app",
+  "version": "1.0.0",
+  "description": "Simple Express app with PM2 deployment",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "pm2": "pm2 start ecosystem.config.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "pm2": "^5.2.0"
+  }
+}
